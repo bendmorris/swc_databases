@@ -1,0 +1,14 @@
+Download the SQLite Manager addon for Firefox:
+
+https://addons.mozilla.org/en-us/firefox/addon/sqlite-manager/
+
+After installing SQLite Manager, restart Firefox, and choose 
+    Tools > SQLite Manager from the menu bar to open it.
+
+
+
+Execute the following commands from a terminal to get the files you will need:
+
+git clone https://github.com/bendmorris/swc_databases.git
+cd swc_databases
+ls

@@ -1,0 +1,18 @@
+1. Get the scientific names of all distinct species found in June, July, and
+August of 1990 and later. Sort them alphabetically by species name, then by
+year (most recent first) and month (most recent first).
+
+2. For each year after 2000, find the number of individuals and the average 
+weight for each species trapped in that year. Order by year, then by the number 
+of individuals trapped.
+
+3. For each rodent species in the portal database, find their mass from the
+Mammal Life History dataset (mlh_species) and also from the Masses of Mammals
+dataset (mom_species). Display species name and both masses side by side as 
+well as the absolute difference between them.
+
+4. We want to discover if there were any recording errors made when inputting
+weights in July of 2007. To do this, we'll compare each individual's weight
+with the weight of that species from the mlh_species table and see if there's
+a large discrepancy. Think about what result will be most useful to a 
+researcher trying to complete this task, and write the best query for the job.

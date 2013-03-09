@@ -1,0 +1,50 @@
+# Queries:
+SELECT (col1, col2, col3...)
+FROM (table)
+JOIN (other table)
+ON (condition...)
+WHERE (condition...)
+GROUP BY (col1, col2...)
+ORDER BY (col1 ASC/DESC, col2 ASC/DESC...)
+
+# Core SQLite functions:
+ABS
+ROUND
+UPPER/LOWER
+LENGTH
+many more: http://www.sqlite.org/lang_corefunc.html
+
+# Some useful aggregate functions
+SUM
+AVG (average)
+COUNT
+MIN/MAX
+more: http://www.sqlite.org/lang_aggfunc.html
+(you can also write your own functions in C)
+
+# Insert data:
+INSERT INTO (table) VALUES (value1, value2, value3...)
+
+# Remove data:
+DELETE FROM (table) WHERE (condition...)
+
+# Edit data:
+UPDATE (table) SET col1=value, col2=value...
+WHERE (condition...)
+
+# Create table:
+CREATE TABLE (table) (col1 type1, col2 type2...)
+    -or-
+CREATE TABLE (table) AS (query)
+
+# Delete table:
+DROP TABLE (table)
+
+# Transactions:
+# Start a transaction
+BEGIN TRANSACTION
+#   - Do some stuff (INSERT, DELETE, UPDATE, etc.) ... -
+# Undo all the operations since the transaction started
+ROLLBACK
+# Commit the transaction
+COMMIT
