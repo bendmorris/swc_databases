@@ -30,6 +30,7 @@ CREATE TABLE, etc.), you can refer to these later.
 
 sqlite.py is an example Python script to execute a query on a SQLite database,
 loop over the results using a for loop, and print them to the screen.
+sqlite2.py uses the matplotlib package to plot data from the database.
 
 
 TASKS lists the tasks that we'll be completing during this course. We'll build
